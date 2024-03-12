@@ -430,5 +430,53 @@ height: 120px;
     .child img {
         height: 100%;
     }
-
+    #footer {
+        height: 40vh;
+        width: 100%;
+        background: linear-gradient(to left bottom, #dfe8e1 0%, #f3f7eb 80%);
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 4.5vw;
+        padding: 0 100px;
+      }
+    #f2 h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 2vw;
+        white-space: nowrap;
+        text-transform: uppercase;
+        color: #716464;
+        font-weight: 900;
+        margin-bottom: 8px;
+      }
+      #f2 h6{
+        font-size: 2.5vw;
+        color: #333;
+    
+      }
+      #f3 h6{
+        font-size: 2.5vw;
+        color: #333;
+    
+      }
+      #f3 h3 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.3vw;
+        white-space: nowrap;
+        text-transform: uppercase;
+        color: #716464;
+        font-weight: 800;
+        margin-bottom: 8px;
+      }
+      #f4 h4 {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.3vw;
+        white-space: nowrap;
+        text-transform: uppercase;
+        color: #716464;
+        font-weight: 600;
+        line-height: 20px;
+        margin-bottom: 8px;
+      }
 }
